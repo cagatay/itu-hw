@@ -1,0 +1,11 @@
+--- unistd_32.h.orig	2009-11-25 05:32:42.000000000 +0200
++++ unistd_32.h	2009-11-25 05:31:57.000000000 +0200
+@@ -338,7 +338,7 @@
+ #define __NR_dup3		330
+ #define __NR_pipe2		331
+ #define __NR_inotify_init1	332
+-
++#define __NR_mycall		333
+ #ifdef __KERNEL__
+ 
+ #define __ARCH_WANT_IPC_PARSE_VERSION

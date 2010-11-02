@@ -1,0 +1,15 @@
+Directories of the change files:
+
+linux-source/include/linux/sched.h
+linux-source/kernel/fork.c
+linux-source/include/linux/init_task.h
+linux-source/fs/proc/base.c
+linux-source/Makefile
+linux-source/arch/x86/kernel/syscall_table_32.S
+linux-source/include/linux/syscalls.h
+linux-source/arch/x86/include/asm/unistd_32.h
+
+mycall is the directory where systemcall exists.
+
+test.c is the source code for the test program.
+(you need to run test.c as root to change the process' invisibility.)

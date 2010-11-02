@@ -1,0 +1,11 @@
+--- syscalls.h.orig	2009-11-25 05:29:07.000000000 +0200
++++ syscalls.h	2009-11-25 05:29:19.000000000 +0200
+@@ -686,7 +686,7 @@
+ 			  size_t);
+ asmlinkage long sys_pipe2(int __user *, int);
+ asmlinkage long sys_pipe(int __user *);
+-
++asmlinkage int sys_mycall(int , int );
+ int kernel_execve(const char *filename, char *const argv[], char *const envp[]);
+ 
+ #endif

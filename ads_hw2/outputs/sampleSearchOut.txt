@@ -1,0 +1,13 @@
+inputs/milliyet/word_list
+bilgisayar dunya/2006_05_30_dunya_adun.html.txt
+bilgisayar ekonomiNew2/2006_03_26_index.html.txt
+bilgisayar ekonomiNew2/2006_03_14_index.html.txt
+bilgisayar ekonomiNew2/2006_03_11_index.html.txt
+bilgisayar ekonomiNew2/2006_02_19_index.html.txt
+bilgisayar ekonomiNew2/2006_01_31_index.html.txt
+bilgisayar guncel/2006_06_10_guncel_gun07.html.txt
+bilgisayar ekonomiNew2/2006_01_29_index.html.txt
+bilgisayar siyasetNew2/2006_01_10_index.html.txt
+bilgisayar siyasetNew2/2005_12_23_index.html.txt
+kýyak sporNew2/2005_12_18_index.html.txt
+karamazov

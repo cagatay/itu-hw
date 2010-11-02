@@ -1,0 +1,7 @@
+--- syscall_table_32.S.orig	2009-11-25 05:28:11.000000000 +0200
++++ syscall_table_32.S	2009-11-25 05:28:44.000000000 +0200
+@@ -332,3 +332,4 @@
+ 	.long sys_dup3			/* 330 */
+ 	.long sys_pipe2
+ 	.long sys_inotify_init1
++	.long sys_mycall

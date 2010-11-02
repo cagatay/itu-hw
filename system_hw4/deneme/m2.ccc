@@ -1,0 +1,16 @@
+#include <magic.h>
+#include <stdio.h>
+
+int main(int argc, char* argv[])
+{
+	magic_t cookie;
+	const char *filetype;
+	const char *filename = argv[1];
+
+	cookie = magic_open(MAGIC_NONE);
+	magic_load(cookie, NULL);
+	filetype = magic_file(cookie, filename);
+	printf("%s\n", filetype);
+	magic_close(cookie);
+	return 0;
+}

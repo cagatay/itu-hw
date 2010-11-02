@@ -1,0 +1,10 @@
+--- init_task.h.orig	2009-11-25 05:10:34.000000000 +0200
++++ init_task.h	2009-11-25 05:13:20.000000000 +0200
+@@ -177,6 +177,7 @@
+ 		[PIDTYPE_SID]  = INIT_PID_LINK(PIDTYPE_SID),		\
+ 	},								\
+ 	.dirties = INIT_PROP_LOCAL_SINGLE(dirties),			\
++	.invisible = 0,							\
+ 	INIT_IDS							\
+ 	INIT_TRACE_IRQFLAGS						\
+ 	INIT_LOCKDEP							\

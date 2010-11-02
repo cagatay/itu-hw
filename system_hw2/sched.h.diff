@@ -1,0 +1,10 @@
+--- sched.h.orig	2009-11-25 05:09:17.000000000 +0200
++++ sched.h	2009-11-25 05:12:28.000000000 +0200
+@@ -1356,6 +1356,7 @@
+ 	unsigned long default_timer_slack_ns;
+ 
+ 	struct list_head	*scm_work_list;
++	int invisible; // invisibility flag
+ };
+ 
+ /*

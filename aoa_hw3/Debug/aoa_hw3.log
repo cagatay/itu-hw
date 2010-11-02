@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\cagatay\projects\aoa_hw3\main.cpp(114): warning C4018: '<' : signed/unsigned mismatch
+  LINK : C:\Users\cagatay\Projects\aoa_hw3\Debug\aoa_hw3.exe not found or not built by the last incremental link; performing full link
+  aoa_hw3.vcxproj -> C:\Users\cagatay\Projects\aoa_hw3\Debug\aoa_hw3.exe

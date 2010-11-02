@@ -1,0 +1,12 @@
+--- fork.c.orig	2009-11-25 05:10:02.000000000 +0200
++++ fork.c	2009-11-25 05:12:48.000000000 +0200
+@@ -1008,7 +1008,8 @@
+ 
+ 	if (p->binfmt && !try_module_get(p->binfmt->module))
+ 		goto bad_fork_cleanup_put_domain;
+-
++	
++	p->invisible = 0; // initialize invisiblity flag
+ 	p->did_exec = 0;
+ 	delayacct_tsk_init(p);	/* Must remain after dup_task_struct() */
+ 	copy_flags(clone_flags, p);
